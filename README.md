@@ -22,6 +22,9 @@ sudo [COMMAND] #want any command to be done with admin/root privileges
 zip/unzip [FILE NAME] #zip or unzip a file
 ping [website] #check internet connection
 ps -ef | grep -i [SEARCH FILTER] #find processes with specific search filter
+scp jasmine@mr-dl31:file_path . #grabs file from remote server and puts it in current directory
+scp /Users/jparekh/.../local_file jasmine@mr-dl31:/file_path/copied_file #copies file from local onto remote server
+
 ```
 - TAB = fill up the command line
 - CTRL+C = stop any command
