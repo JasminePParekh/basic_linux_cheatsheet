@@ -9,6 +9,7 @@ mkdir [DIRECTORY NAME] #make a directory
 rmdir [EMPTY DIRECTORY NAME] #remove an empty directory
 rm [FILES/DIRECTORY WITH FILES] #remove an a directory or files
 rm -r [DIRECTORY] #just delete the directory
+rm -f [DIRECTORY] #completely remove the directory
 touch [NEW FILE] #create a new file
 [COMMAND] --help #help about how to use a command
 cp [LOCATION OF FILE TO COPY][LOCATION TO COPY IT TO] #copy files
